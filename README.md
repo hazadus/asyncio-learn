@@ -28,3 +28,4 @@
 - Защита задачи от снятия: [listing_2_13.py](listing_2_13.py)
 - Основы будущих объектов: [listing_2_14.py](listing_2_14.py)
 - Ожидание будущего объекта: [listing_2_15.py](listing_2_15.py)
+- Декоратор для хронометража сопрограмм: [util/async_timer.py](util/async_timer.py)
