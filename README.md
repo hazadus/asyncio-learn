@@ -20,3 +20,4 @@
 - Использование await для ожидания результата сопрограммы: [listing_2_4.py](listing_2_4.py)
 - Первое применение sleep: [listing_2_5.py](listing_2_5.py)
 - Повторно используемая сопрограмма delay: [util/delay_functions.py](util/delay_functions.py)
+- Создание задачи: [listing_2_8.py](listing_2_8.py)
