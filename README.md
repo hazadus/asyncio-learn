@@ -26,3 +26,4 @@
 - Снятие задачи: [listing_2_11.py](listing_2_11.py)
 - Задание тайм-аута для задачи с помощью `wait_for`: [listing_2_12.py](listing_2_12.py)
 - Защита задачи от снятия: [listing_2_13.py](listing_2_13.py)
+- Основы будущих объектов: [listing_2_14.py](listing_2_14.py)
