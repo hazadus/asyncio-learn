@@ -18,3 +18,4 @@
 
 - Выполнение сопрограммы: [listing_2_3.py](listing_2_3.py)
 - Использование await для ожидания результата сопрограммы: [listing_2_4.py](listing_2_4.py)
+- Первое применение sleep: [listing_2_5.py](listing_2_5.py)
