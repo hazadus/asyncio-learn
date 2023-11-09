@@ -21,3 +21,4 @@
 - Первое применение sleep: [listing_2_5.py](listing_2_5.py)
 - Повторно используемая сопрограмма delay: [util/delay_functions.py](util/delay_functions.py)
 - Создание задачи: [listing_2_8.py](listing_2_8.py)
+- Конкурентное выполнение нескольких задач: [listing_2_9.py](listing_2_9.py)
