@@ -3,6 +3,7 @@
 """
 import asyncio
 import socket
+import logging
 from asyncio import AbstractEventLoop
 
 BUFFER_SIZE = 1024
@@ -12,8 +13,17 @@ async def echo(connection: socket, loop: AbstractEventLoop) -> None:
     """
     Wait for data from the client and send it back.
     """
-    while data := await loop.sock_recv(connection, BUFFER_SIZE):
-        await loop.sock_sendall(connection, data)
+    try:
+        while data := await loop.sock_recv(connection, BUFFER_SIZE):
+            print("Received data:", data)
+            await loop.sock_sendall(connection, data)
+    except Exception as ex:
+        logging.exception(exc_info=ex)
+    finally:
+        connection.close()
+
+
+tasks = []
 
 
 async def listen_for_connection(server_socket: socket, loop: AbstractEventLoop) -> None:
@@ -24,7 +34,7 @@ async def listen_for_connection(server_socket: socket, loop: AbstractEventLoop) 
         connection, address = await loop.sock_accept(server_socket)
         connection.setblocking(False)
         print(f"Connection from {address}")
-        asyncio.create_task(echo(connection, loop))
+        tasks.append(asyncio.create_task(echo(connection, loop)))
 
 
 async def main() -> None:
