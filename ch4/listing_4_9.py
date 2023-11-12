@@ -2,7 +2,7 @@
 Тайм-ауты в сочетании с `as_completed`
 """
 import asyncio
-from aiohttp import ClientSession, ClientTimeout
+from aiohttp import ClientSession
 from util import async_timed
 
 
