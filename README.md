@@ -62,3 +62,4 @@
 - Конкурентное выполнение запросов с помощью `gather`: [ch4/listing_4_6.py](ch4/listing_4_6.py)
 - Обработка исключений при использовании `gather`: [ch4/listing_4_6a.py](ch4/listing_4_6a.py)
 - Использование `as_completed`: [ch4/listing_4_8.py](ch4/listing_4_8.py)
+- Тайм-ауты в сочетании с `as_completed`: [ch4/listing_4_9.py](ch4/listing_4_9.py)
