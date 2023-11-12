@@ -74,6 +74,10 @@
 
 Запуск БД: `docker compose up -d`
 
-В терминале контейнера, подключение к БД: `psql -U postgres -h localhost -p 5432`
+В терминале контейнера, подключение к БД:
+- `psql -U postgres -h localhost -p 5432`
+- `psql -d products -U postgres -h localhost -p 5432`
 
 - Подключение к базе данных Postgres от имени пользователя по умолчанию: [ch5/listing_5_1.py](ch5/listing_5_1.py)
+- Команды создания таблиц в схеме базы данных о товарах: [ch5/listing_5_2.py](ch5/listing_5_2.py)
+- Использование сопрограммы `execute` для выполнения команд `create`: [ch5/listing_5_3.py](ch5/listing_5_3.py)
