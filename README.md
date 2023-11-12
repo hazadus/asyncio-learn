@@ -55,9 +55,10 @@
 ### Глава 3. Конкурентные веб-запросы
 
 - Асинхронный контекстный менеджер, ожидающий подключения клиента: [ch4/listing_4_1.py](ch4/listing_4_1.py)
-- Отправка веб-запроса с помощью aiohttp: [ch4/listing_4_2.py](ch4/listing_4_2.py)
-- Задание тайм-аутов в aiohttp: [ch4/listing_4_3.py](ch4/listing_4_3.py)
+- Отправка веб-запроса с помощью `aiohttp`: [ch4/listing_4_2.py](ch4/listing_4_2.py)
+- Задание тайм-аутов в `aiohttp`: [ch4/listing_4_3.py](ch4/listing_4_3.py)
 - Неправильное использование спискового включения для создания и ожидания задач: [ch4/listing_4_4.py](ch4/listing_4_4.py)
 - Использование спискового включения для конкурентного выполнения задач: [ch4/listing_4_5.py](ch4/listing_4_5.py)
-- Конкурентное выполнение запросов с помощью gather: [ch4/listing_4_6.py](ch4/listing_4_6.py)
-- Обработка исключений при использовании gather: [ch4/listing_4_6a.py](ch4/listing_4_6a.py)
+- Конкурентное выполнение запросов с помощью `gather`: [ch4/listing_4_6.py](ch4/listing_4_6.py)
+- Обработка исключений при использовании `gather`: [ch4/listing_4_6a.py](ch4/listing_4_6a.py)
+- Использование `as_completed`: [ch4/listing_4_8.py](ch4/listing_4_8.py)
