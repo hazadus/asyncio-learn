@@ -2,6 +2,7 @@
 Хронометраж двух конкурентных задач с помощью декоратора
 """
 import asyncio
+
 from util import async_timed
 
 

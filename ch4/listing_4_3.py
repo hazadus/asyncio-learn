@@ -2,7 +2,9 @@
 Задание тайм-аутов в aiohttp
 """
 import asyncio
+
 from aiohttp import ClientSession, ClientTimeout
+
 from util import async_timed
 
 

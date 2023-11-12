@@ -2,6 +2,7 @@
 Защита задачи от снятия
 """
 import asyncio
+
 from util import delay
 
 

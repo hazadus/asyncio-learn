@@ -1,8 +1,9 @@
 """
 Многопоточное чтение кода состояния
 """
-import time
 import threading
+import time
+
 import requests
 
 THREADS_QTY = 10

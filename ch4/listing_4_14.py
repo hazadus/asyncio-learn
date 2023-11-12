@@ -2,7 +2,9 @@
 Обработка всех результатов по мере поступления
 """
 import asyncio
+
 from aiohttp import ClientSession
+
 from util import async_timed
 
 

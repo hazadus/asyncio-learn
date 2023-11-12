@@ -2,6 +2,7 @@
 Конкурентное выполнение нескольких задач
 """
 import asyncio
+
 from util import delay
 
 

@@ -2,7 +2,9 @@
 Изучение поведения `wait` по умолчанию
 """
 import asyncio
+
 from aiohttp import ClientSession
+
 from util import async_timed
 
 

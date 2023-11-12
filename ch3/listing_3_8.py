@@ -2,8 +2,8 @@
 Построение асинхронного эхо-сервера
 """
 import asyncio
-import socket
 import logging
+import socket
 from asyncio import AbstractEventLoop
 
 BUFFER_SIZE = 1024

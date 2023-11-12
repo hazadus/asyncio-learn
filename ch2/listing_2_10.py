@@ -2,6 +2,7 @@
 Выполнение кода, пока другие операции работают в фоне
 """
 import asyncio
+
 from util import delay
 
 

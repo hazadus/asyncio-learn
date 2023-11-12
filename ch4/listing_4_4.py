@@ -2,6 +2,7 @@
 Неправильное использование спискового включения для создания и ожидания задач
 """
 import asyncio
+
 from util import async_timed, delay
 
 

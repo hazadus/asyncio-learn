@@ -1,8 +1,9 @@
 """
 Подключение к базе данных Postgres от имени пользователя по умолчанию
 """
-import asyncpg
 import asyncio
+
+import asyncpg
 
 
 async def main() -> None:

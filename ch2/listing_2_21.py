@@ -2,6 +2,7 @@
 Создание цикла событий вручную
 """
 import asyncio
+
 from util import async_timed
 
 

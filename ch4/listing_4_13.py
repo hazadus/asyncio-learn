@@ -2,7 +2,9 @@
 Обработка запросов по мере завершения
 """
 import asyncio
+
 from aiohttp import ClientSession
+
 from util import async_timed
 
 

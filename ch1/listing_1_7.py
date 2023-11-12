@@ -2,6 +2,7 @@
 Синхронное чтение кода состояния
 """
 import time
+
 import requests
 
 

@@ -2,6 +2,7 @@
 Выполнение двух сопрограмм
 """
 import asyncio
+
 from util import delay
 
 

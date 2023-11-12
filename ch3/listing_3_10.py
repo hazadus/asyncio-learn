@@ -3,8 +3,8 @@
 """
 import asyncio
 import logging
-import socket
 import signal
+import socket
 from asyncio import AbstractEventLoop
 from typing import List
 

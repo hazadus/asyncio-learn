@@ -2,6 +2,7 @@
 Задание тайм-аута для задачи с помощью `wait_for`
 """
 import asyncio
+
 from util import delay
 
 

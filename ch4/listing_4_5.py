@@ -2,6 +2,7 @@
 Использование спискового включения для конкурентного выполнения задач
 """
 import asyncio
+
 from util import async_timed, delay
 
 

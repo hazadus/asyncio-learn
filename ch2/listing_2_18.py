@@ -10,6 +10,7 @@ Calling <function cpu_bound_work at 0x104afc700> with arguments () {}
 <function main at 0x10506f760> completed in 7.7624 sec.
 """
 import asyncio
+
 from util import async_timed
 
 

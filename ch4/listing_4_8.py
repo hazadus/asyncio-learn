@@ -2,7 +2,9 @@
 Использование `as_completed`
 """
 import asyncio
+
 from aiohttp import ClientSession, ClientTimeout
+
 from util import async_timed
 
 

@@ -1,8 +1,9 @@
 import asyncio
-import feedparser
 import logging
 
+import feedparser
 from aiohttp import ClientSession
+
 from util import async_timed
 
 FEED_URLS = [

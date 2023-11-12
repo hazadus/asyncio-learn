@@ -2,6 +2,7 @@
 Получение доступа к циклу событий
 """
 import asyncio
+
 from util import delay
 
 
