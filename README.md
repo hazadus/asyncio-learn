@@ -65,3 +65,4 @@
 - Тайм-ауты в сочетании с `as_completed`: [ch4/listing_4_9.py](ch4/listing_4_9.py)
 - Изучение поведения `wait` по умолчанию: [ch4/listing_4_10.py](ch4/listing_4_10.py)
 - Обработка исключений при использовании `wait`: [ch4/listing_4_11.py](ch4/listing_4_11.py)
+- Отмена работающих запросов при возникновении исключения: [ch4/listing_4_12.py](ch4/listing_4_12.py)
