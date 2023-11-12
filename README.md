@@ -75,3 +75,5 @@
 Запуск БД: `docker compose up -d`
 
 В терминале контейнера, подключение к БД: `psql -U postgres -h localhost -p 5432`
+
+- Подключение к базе данных Postgres от имени пользователя по умолчанию: [ch5/listing_5_1.py](ch5/listing_5_1.py)
