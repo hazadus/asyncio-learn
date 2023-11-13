@@ -83,3 +83,4 @@
 - Использование сопрограммы `execute` для выполнения команд `create`: [ch5/listing_5_3.py](ch5/listing_5_3.py)
 - Вставка и выборка марок: [ch5/listing_5_4.py](ch5/listing_5_4.py)
 - Вставка случайных марок: [ch5/listing_5_5.py](ch5/listing_5_5.py)
+- Вставка случайных товаров и SKU: [ch5/listing_5_6.py](ch5/listing_5_6.py)
