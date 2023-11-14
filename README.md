@@ -80,9 +80,10 @@
 
 - Подключение к базе данных Postgres от имени пользователя по умолчанию: [ch5/listing_5_1.py](ch5/listing_5_1.py)
 - Команды создания таблиц в схеме базы данных о товарах: [ch5/listing_5_2.py](ch5/listing_5_2.py)
-- Использование сопрограммы `execute` для выполнения команд `create`: [ch5/listing_5_3.py](ch5/listing_5_3.py)
+- Использование сопрограммы `execute` для выполнения команд `CREATE`: [ch5/listing_5_3.py](ch5/listing_5_3.py)
 - Вставка и выборка марок: [ch5/listing_5_4.py](ch5/listing_5_4.py)
 - Вставка случайных марок: [ch5/listing_5_5.py](ch5/listing_5_5.py)
 - Вставка случайных товаров и SKU: [ch5/listing_5_6.py](ch5/listing_5_6.py)
 - Создание пула подключений и конкурентное выполнение запросов: [ch5/listing_5_7.py](ch5/listing_5_7.py)
 - Синхронное и конкурентное выполнение запросов: [ch5/listing_5_8.py](ch5/listing_5_8.py)
+- Создание транзакции: [ch5/listing_5_9.py](ch5/listing_5_9.py)
