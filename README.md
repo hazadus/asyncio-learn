@@ -88,3 +88,4 @@
 - Синхронное и конкурентное выполнение запросов: [ch5/listing_5_8.py](ch5/listing_5_8.py)
 - Создание транзакции: [ch5/listing_5_9.py](ch5/listing_5_9.py)
 - Обработка ошибки в транзакции: [ch5/listing_5_10.py](ch5/listing_5_10.py)
+- Вложенная транзакция: [ch5/listing_5_11.py](ch5/listing_5_11.py)
