@@ -2,6 +2,7 @@
 Ручное управление транзакцией
 """
 import asyncio
+
 import asyncpg
 from asyncpg.transaction import Transaction
 
