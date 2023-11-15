@@ -90,3 +90,4 @@
 - Обработка ошибки в транзакции: [ch5/listing_5_10.py](ch5/listing_5_10.py)
 - Вложенная транзакция: [ch5/listing_5_11.py](ch5/listing_5_11.py)
 - Ручное управление транзакцией: [ch5/listing_5_12.py](ch5/listing_5_12.py)
+- Простой асинхронный генератор: [ch5/listing_5_14.py](ch5/listing_5_14.py)
