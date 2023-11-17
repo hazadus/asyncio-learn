@@ -9,7 +9,6 @@ import asyncpg
 
 from util import async_timed
 
-
 product_query = """
     SELECT p.product_id,
     p.product_name,
