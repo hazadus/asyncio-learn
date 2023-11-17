@@ -103,3 +103,4 @@
 - Исполнители пула процессов: [ch6/listing_6_4.py](ch6/listing_6_4.py)
 - Исполнитель пула процессов в сочетании с `asyncio.gather()`: [ch6/listing_6_5.py](ch6/listing_6_5.py)
 - Исполнитель пула процессов в сочетании с `asyncio.as_completed()`: [ch6/listing_6_5a.py](ch6/listing_6_5a.py)
+- Однопоточная модель MapReduce: [ch6/listing_6_6.py](ch6/listing_6_6.py)
