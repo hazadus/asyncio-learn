@@ -1,7 +1,7 @@
 """
 Разделяемые значения и массивы
 """
-from multiprocessing import Process, Value, Array
+from multiprocessing import Array, Process, Value
 
 
 def increment_value(shared_int: Value) -> None:
