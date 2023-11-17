@@ -100,3 +100,6 @@
 - Два параллельных процесса: [ch6/listing_6_1.py](ch6/listing_6_1.py)
 - Создание пула процессов: [ch6/listing_6_2.py](ch6/listing_6_2.py)
 - Асинхронное получение результатов от пула процессов: [ch6/listing_6_3.py](ch6/listing_6_3.py)
+- Исполнители пула процессов: [ch6/listing_6_4.py](ch6/listing_6_4.py)
+- Исполнитель пула процессов в сочетании с `asyncio.gather()`: [ch6/listing_6_5.py](ch6/listing_6_5.py)
+- Исполнитель пула процессов в сочетании с `asyncio.as_completed()`: [ch6/listing_6_5a.py](ch6/listing_6_5a.py)
