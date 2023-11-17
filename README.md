@@ -106,3 +106,4 @@
 - Однопоточная модель MapReduce: [ch6/listing_6_6.py](ch6/listing_6_6.py)
 - Подсчет частот слов в Google Books Ngram: [ch6/listing_6_7.py](ch6/listing_6_7.py)
 - Распараллеливание с помощью MapReduce и пула процессов: [ch6/listing_6_8.py](ch6/listing_6_8.py)
+- Распараллеливание операции `reduce`: [ch6/listing_6_9.py](ch6/listing_6_9.py)
