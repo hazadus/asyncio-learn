@@ -9,7 +9,6 @@ from typing import Dict, List
 
 from listing_6_8 import merge_dictionaries, partition
 
-
 map_progress: Value
 
 
