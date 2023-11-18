@@ -129,3 +129,4 @@
 - Использование сопрограммы `to_thread`: [ch7/listing_7_7.py](ch7/listing_7_7.py)
 - Печать информации о состоянии отправки запросов: [ch7/listing_7_8.py](ch7/listing_7_8.py)
 - Блокировки и рекурсия: [ch7/listing_7_9.py](ch7/listing_7_9.py)
+- Класс потокобезопасного списка: [ch7/listing_7_10.py](ch7/listing_7_10.py)
