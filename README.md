@@ -124,3 +124,4 @@
 - Создание подкласса `Thread` для чистой остановки: [ch7/listing_7_2.py](ch7/listing_7_2.py)
 - Базовое использование `requests`: [ch7/listing_7_3.py](ch7/listing_7_3.py)
 - Выполнение запросов с помощью пула потоков: [ch7/listing_7_4.py](ch7/listing_7_4.py)
+- Использование исполнителя пула потоков совместно с `asyncio`: [ch7/listing_7_5.py](ch7/listing_7_5.py)
