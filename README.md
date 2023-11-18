@@ -134,3 +134,4 @@
 - Класс нагрузочного тестирования: [ch7/listing_7_13.py](ch7/listing_7_13.py)
 - TkInter GUI: [ch7/listing_7_14.py](ch7/listing_7_14.py)
 - Приложение для нагрузочного тестирования: [ch7/listing_7_15.py](ch7/listing_7_15.py)
+- Хеширование паролей с помощью алгоритма `scrypt`: [ch7/listing_7_16.py](ch7/listing_7_16.py)
