@@ -2,6 +2,10 @@
 
 - [Asyncio и конкурентное программирование на Python](http://library.hazadus.ru/books/47/details/)
 - [Конспект в Notion](https://www.notion.so/hazadus/asyncio-f580c8ef34b34318a33de02a40461834?pvs=4)
+- [Async IO in Python: A Complete Walkthrough](https://realpython.com/async-io-python/)
+- [aiostream](https://aiostream.readthedocs.io/en/stable/) – Generator-based operators for asynchronous iteration.
+- [What kinds of global value mutation are thread-safe?](https://docs.python.org/3/faq/library.html#id17)
+- [Requests: HTTP for Humans](https://requests.readthedocs.io/en/latest/)
 
 ### Глава 1. Первое знакомство с `asyncio`
 
@@ -118,3 +122,4 @@
 
 - Многопоточный эхо-сервер: [ch7/listing_7_1.py](ch7/listing_7_1.py)
 - Создание подкласса `Thread` для чистой остановки: [ch7/listing_7_2.py](ch7/listing_7_2.py)
+- Базовое использование `requests`: [ch7/listing_7_3.py](ch7/listing_7_3.py)
