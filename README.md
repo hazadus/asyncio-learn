@@ -131,3 +131,6 @@
 - Блокировки и рекурсия: [ch7/listing_7_9.py](ch7/listing_7_9.py)
 - Класс потокобезопасного списка: [ch7/listing_7_10.py](ch7/listing_7_10.py)
 - Приложение «hello world» на Tkinter: [ch7/listing_7_12.py](ch7/listing_7_12.py)
+- Класс нагрузочного тестирования: [ch7/listing_7_13.py](ch7/listing_7_13.py)
+- TkInter GUI: [ch7/listing_7_14.py](ch7/listing_7_14.py)
+- Приложение для нагрузочного тестирования: [ch7/listing_7_15.py](ch7/listing_7_15.py)
