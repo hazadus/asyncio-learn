@@ -151,3 +151,5 @@
 - Приложение для асинхронной задержки: [ch8/listing_8_10.py](ch8/listing_8_10.py)
 - Асинхронный командный SQL-клиент: [ch8/listing_8_11.py](ch8/listing_8_11.py)
 - Создание эхо-сервера с помощью серверных объектов: [ch8/listing_8_12.py](ch8/listing_8_12.py)
+- Чат-сервер: [ch8/listing_8_13.py](ch8/listing_8_13.py)
+- Клиент чат-сервера: [ch8/listing_8_14.py](ch8/listing_8_14.py)
