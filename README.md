@@ -135,3 +135,8 @@
 - TkInter GUI: [ch7/listing_7_14.py](ch7/listing_7_14.py)
 - Приложение для нагрузочного тестирования: [ch7/listing_7_15.py](ch7/listing_7_15.py)
 - Хеширование паролей с помощью алгоритма `scrypt`: [ch7/listing_7_16.py](ch7/listing_7_16.py)
+
+### Глава 8. Потоки данных (streams)
+
+- Выполнение HTTP-запроса с помощью транспортного механизма и протокола: [ch8/listing_8_1.py](ch8/listing_8_1.py)
+- Использование протокола: [ch8/listing_8_2.py](ch8/listing_8_2.py)
