@@ -6,6 +6,7 @@
 - [aiostream](https://aiostream.readthedocs.io/en/stable/) – Generator-based operators for asynchronous iteration.
 - [What kinds of global value mutation are thread-safe?](https://docs.python.org/3/faq/library.html#id17)
 - [Requests: HTTP for Humans](https://requests.readthedocs.io/en/latest/)
+- [ANSI escape code](https://en.wikipedia.org/wiki/ANSI_escape_code)
 
 ### Глава 1. Первое знакомство с `asyncio`
 
@@ -144,3 +145,7 @@
 - Попытка выполнения задач в фоновом режиме: [ch8/listing_8_4.py](ch8/listing_8_4.py)
 - Асинхронный читатель стандартного ввода: [ch8/listing_8_5.py](ch8/listing_8_5.py)
 - Использование потоковых читателей для ввода данных: [ch8/listing_8_6.py](ch8/listing_8_6.py)
+- Вспомогательные функции для вывода управляющих последовательностей: [ch8/listing_8_7.py](ch8/listing_8_7.py)
+- Чтение из стандартного ввода по одному символу: [ch8/listing_8_8.py](ch8/listing_8_8.py)
+- Хранилище сообщений: [ch8/listing_8_9.py](ch8/listing_8_9.py)
+- Приложение для асинхронной задержки: [ch8/listing_8_10.py](ch8/listing_8_10.py)
