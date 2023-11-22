@@ -27,6 +27,7 @@
   - [PEP 333 – Python Web Server Gateway Interface v1.0](https://peps.python.org/pep-0333/)
   - [uvicorn](https://www.uvicorn.org/)
   - [Starlette](https://www.starlette.io/): lightweight ASGI framework/toolkit, which is ideal for building async web services in Python.
+  - [websockets](https://pypi.org/project/websockets/): An implementation of the WebSocket Protocol (RFC 6455 & 7692).
 
 ### Глава 1. Первое знакомство с `asyncio`
 
@@ -184,3 +185,5 @@
 - WSGI-приложение: [ch9/listing_9_6.py](ch9/listing_9_6.py)
 - Простое ASGI-приложение: [ch9/listing_9_7.py](ch9/listing_9_7.py)
 - Оконечная точка `/brands` в приложении Starlette: [ch9/listing_9_8.py](ch9/listing_9_8.py)
+- Оконечная точка типа WebSocket в Starlette: [ch9/listing_9_9.py](ch9/listing_9_9.py)
+- Использование оконечной точки типа WebSocket: [ch9/listing_9_10.html](ch9/listing_9_10.html)
