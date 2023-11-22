@@ -8,7 +8,7 @@ Load testing:
 brew install wrk
 wrk -c200 -t1 -d30 http://127.0.0.1:8000/brands
 
-Sample output:
+Test results:
 Running 30s test @ http://127.0.0.1:8000/brands
   1 threads and 200 connections
   Thread Stats   Avg      Stdev     Max   +/- Stdev
@@ -19,8 +19,8 @@ Running 30s test @ http://127.0.0.1:8000/brands
 Requests/sec:    509.12
 Transfer/sec:      7.62MB
 """
-from flask import Flask, jsonify
 import psycopg2
+from flask import Flask, jsonify
 
 app = Flask(__name__)
 connection_info = "dbname=products user=postgres password=postgres host=127.0.0.1"

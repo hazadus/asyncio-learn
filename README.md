@@ -26,6 +26,7 @@
   - [wrk](https://github.com/wg/wrk) tool (`brew install wrk`)
   - [PEP 333 – Python Web Server Gateway Interface v1.0](https://peps.python.org/pep-0333/)
   - [uvicorn](https://www.uvicorn.org/)
+  - [Starlette](https://www.starlette.io/): lightweight ASGI framework/toolkit, which is ideal for building async web services in Python.
 
 ### Глава 1. Первое знакомство с `asyncio`
 
@@ -182,3 +183,4 @@
 - Приложение Flask для выборки торговых марок: [ch9/listing_9_5.py](ch9/listing_9_5.py)
 - WSGI-приложение: [ch9/listing_9_6.py](ch9/listing_9_6.py)
 - Простое ASGI-приложение: [ch9/listing_9_7.py](ch9/listing_9_7.py)
+- Оконечная точка `/brands` в приложении Starlette: [ch9/listing_9_8.py](ch9/listing_9_8.py)

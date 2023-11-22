@@ -16,8 +16,8 @@ Transfer/sec:     37.92MB
 from aiohttp import web
 from aiohttp.web_request import Request
 from aiohttp.web_response import Response
-from ch9.listing_9_2 import create_database_pool, destroy_database_pool
 
+from ch9.listing_9_2 import create_database_pool, destroy_database_pool
 
 routes = web.RouteTableDef()
 DB_KEY = "database"
