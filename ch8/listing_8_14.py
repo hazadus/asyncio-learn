@@ -3,10 +3,10 @@
 """
 import asyncio
 import logging
-from asyncio import StreamReader, StreamWriter
 import os
 import sys
 import tty
+from asyncio import StreamReader, StreamWriter
 from collections import deque
 
 from listing_8_5 import create_stdin_reader

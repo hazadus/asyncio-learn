@@ -1,12 +1,28 @@
-## Примеры кода из книги Python Concurrency with `asyncio` 
+# Concurrency and Multiprocessing in Python
 
-- [Asyncio и конкурентное программирование на Python](http://library.hazadus.ru/books/47/details/)
-- [Конспект в Notion](https://www.notion.so/hazadus/asyncio-f580c8ef34b34318a33de02a40461834?pvs=4)
+В этом репозитории пробую примеры из книг, а также делаю наброски кода по тематике concurrency and multiprocessing 
+на Python.
+
+Материалы для дальнейшей проработки:
+
 - [Async IO in Python: A Complete Walkthrough](https://realpython.com/async-io-python/)
 - [aiostream](https://aiostream.readthedocs.io/en/stable/) – Generator-based operators for asynchronous iteration.
-- [What kinds of global value mutation are thread-safe?](https://docs.python.org/3/faq/library.html#id17)
-- [Requests: HTTP for Humans](https://requests.readthedocs.io/en/latest/)
-- [ANSI escape code](https://en.wikipedia.org/wiki/ANSI_escape_code)
+
+## Наброски
+
+Попытки эффективно решить прикладные задачи с помощью `asyncio`.
+
+- Асинхронный парсер RSS-лент на `asyncio` и `aiohttp`: [rssreader/rssreader.py](rssreader/rssreader.py)
+
+## Примеры кода из книги Python Concurrency with `asyncio` 
+
+- Материалы:
+  - Книга [Asyncio и конкурентное программирование на Python](http://library.hazadus.ru/books/47/details/)
+  - 🔒 [Конспект в Obsidian](https://github.com/hazadus/Hazadus-Vault/blob/main/Dev/Reading/asyncio.md)
+- Дополнительные ссылки из книги, и не только:
+  - [What kinds of global value mutation are thread-safe?](https://docs.python.org/3/faq/library.html#id17)
+  - [Requests: HTTP for Humans](https://requests.readthedocs.io/en/latest/)
+  - [ANSI escape code](https://en.wikipedia.org/wiki/ANSI_escape_code)
 
 ### Глава 1. Первое знакомство с `asyncio`
 
@@ -153,3 +169,7 @@
 - Создание эхо-сервера с помощью серверных объектов: [ch8/listing_8_12.py](ch8/listing_8_12.py)
 - Чат-сервер: [ch8/listing_8_13.py](ch8/listing_8_13.py)
 - Клиент чат-сервера: [ch8/listing_8_14.py](ch8/listing_8_14.py)
+
+### Глава 9. Веб-приложения
+
+- Оконечная точка для возврата текущего времени: [ch9/listing_9_1.py](ch9/listing_9_1.py)
