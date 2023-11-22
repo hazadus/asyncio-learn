@@ -24,6 +24,8 @@
   - [Requests: HTTP for Humans](https://requests.readthedocs.io/en/latest/)
   - [ANSI escape code](https://en.wikipedia.org/wiki/ANSI_escape_code)
   - [wrk](https://github.com/wg/wrk) tool (`brew install wrk`)
+  - [PEP 333 – Python Web Server Gateway Interface v1.0](https://peps.python.org/pep-0333/)
+  - [uvicorn](https://www.uvicorn.org/)
 
 ### Глава 1. Первое знакомство с `asyncio`
 
@@ -178,3 +180,5 @@
 - Получение конкретного товара: [ch9/listing_9_3.py](ch9/listing_9_3.py)
 - Оконечная точка для создания товара: [ch9/listing_9_4.py](ch9/listing_9_4.py)
 - Приложение Flask для выборки торговых марок: [ch9/listing_9_5.py](ch9/listing_9_5.py)
+- WSGI-приложение: [ch9/listing_9_6.py](ch9/listing_9_6.py)
+- Простое ASGI-приложение: [ch9/listing_9_7.py](ch9/listing_9_7.py)
