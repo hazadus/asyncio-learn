@@ -23,6 +23,7 @@
   - [What kinds of global value mutation are thread-safe?](https://docs.python.org/3/faq/library.html#id17)
   - [Requests: HTTP for Humans](https://requests.readthedocs.io/en/latest/)
   - [ANSI escape code](https://en.wikipedia.org/wiki/ANSI_escape_code)
+  - [wrk](https://github.com/wg/wrk) tool (`brew install wrk`)
 
 ### Глава 1. Первое знакомство с `asyncio`
 
@@ -176,3 +177,4 @@
 - Подключение к базе данных о товарах: [ch9/listing_9_2.py](ch9/listing_9_2.py)
 - Получение конкретного товара: [ch9/listing_9_3.py](ch9/listing_9_3.py)
 - Оконечная точка для создания товара: [ch9/listing_9_4.py](ch9/listing_9_4.py)
+- Приложение Flask для выборки торговых марок: [ch9/listing_9_5.py](ch9/listing_9_5.py)

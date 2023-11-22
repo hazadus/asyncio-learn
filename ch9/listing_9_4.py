@@ -1,5 +1,17 @@
 """
 Оконечная точка для создания товара
+
+Test results:
+(.venv) hazadus:19:47:Projects/ayncio-learn# wrk -c200 -t1 -d30 http://127.0.0.1:8080/brands
+
+Running 30s test @ http://127.0.0.1:8080/brands
+  1 threads and 200 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    87.33ms   28.50ms 420.69ms   89.34%
+    Req/Sec     2.31k    92.95     2.46k    87.33%
+  68855 requests in 30.01s, 1.11GB read
+Requests/sec:   2294.63
+Transfer/sec:     37.92MB
 """
 from aiohttp import web
 from aiohttp.web_request import Request
