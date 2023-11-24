@@ -188,4 +188,8 @@
 - Оконечная точка типа WebSocket в Starlette: [ch9/listing_9_9.py](ch9/listing_9_9.py)
 - Использование оконечной точки типа WebSocket: [ch9/listing_9_10.html](ch9/listing_9_10.html)
 - Асинхронное представление Django: [ch9/async_views/async_api/views.py](ch9/async_views/async_api/views.py)
-- 
+
+### Глава 10. Микросервисы
+
+- Сервис наличия на складе: [ch10/listing_10_1.py](ch10/listing_10_1.py)
+- Создание и уничтожение пула подключений к базе данных: [ch10/listing_10_4.py](ch10/listing_10_4.py)
