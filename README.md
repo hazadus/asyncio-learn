@@ -193,3 +193,6 @@
 
 - Сервис наличия на складе: [ch10/listing_10_1.py](ch10/listing_10_1.py)
 - Создание и уничтожение пула подключений к базе данных: [ch10/listing_10_4.py](ch10/listing_10_4.py)
+- Сервис избранного: [ch10/listing_10_5.py](ch10/listing_10_5.py)
+- Сервис корзины: [ch10/listing_10_6.py](ch10/listing_10_6.py)
+- Сервис товаров: [ch10/listing_10_7.py](ch10/listing_10_7.py)
