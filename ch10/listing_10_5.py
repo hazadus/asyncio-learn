@@ -9,11 +9,10 @@ from aiohttp.web_response import Response
 
 from ch10.listing_10_4 import DB_KEY, create_database_pool, destroy_database_pool
 
-
 routes = web.RouteTableDef()
 
 
-@routes.get("/products/{id}/favorites")
+@routes.get("/users/{id}/favorites")
 async def favorites(request: Request) -> Response:
     try:
         str_id = request.match_info["id"]

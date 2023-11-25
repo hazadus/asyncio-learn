@@ -9,11 +9,10 @@ from aiohttp.web_response import Response
 
 from ch10.listing_10_4 import DB_KEY, create_database_pool, destroy_database_pool
 
-
 routes = web.RouteTableDef()
 
 
-@routes.get("/products/{id}/cart")
+@routes.get("/users/{id}/cart")
 async def cart(request: Request) -> Response:
     try:
         str_id = request.match_info["id"]

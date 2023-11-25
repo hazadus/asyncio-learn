@@ -196,3 +196,4 @@
 - Сервис избранного: [ch10/listing_10_5.py](ch10/listing_10_5.py)
 - Сервис корзины: [ch10/listing_10_6.py](ch10/listing_10_6.py)
 - Сервис товаров: [ch10/listing_10_7.py](ch10/listing_10_7.py)
+- Сервис backend-for-frontend для товаров: [ch10/listing_10_8.py](ch10/listing_10_8.py)

@@ -9,7 +9,6 @@ from aiohttp.web_response import Response
 
 from ch10.listing_10_4 import DB_KEY, create_database_pool, destroy_database_pool
 
-
 routes = web.RouteTableDef()
 
 
