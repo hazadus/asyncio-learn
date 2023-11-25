@@ -28,6 +28,8 @@
   - [uvicorn](https://www.uvicorn.org/)
   - [Starlette](https://www.starlette.io/): lightweight ASGI framework/toolkit, which is ideal for building async web services in Python.
   - [websockets](https://pypi.org/project/websockets/): An implementation of the WebSocket Protocol (RFC 6455 & 7692).
+  - Книга [Release It! Second Edition](https://pragprog.com/titles/mnee2/release-it-second-edition/): паттерн 
+    "Прерыватель".
 
 ### Глава 1. Первое знакомство с `asyncio`
 
@@ -199,3 +201,8 @@
 - Сервис backend-for-frontend для товаров: [ch10/listing_10_8.py](ch10/listing_10_8.py)
 - Сопрограмма `retry`: [ch10/listing_10_9.py](ch10/listing_10_9.py)
 - Тестирование сопрограммы `retry`: [ch10/listing_10_10.py](ch10/listing_10_10.py)
+
+### Глава 11. Синхронизация
+
+- Попытка создать состояние гонки: [ch11/listing_11_1.py](ch11/listing_11_1.py)
+- Состояние гонки в однопоточной программе: [ch11/listing_11_2.py](ch11/listing_11_2.py)
