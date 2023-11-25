@@ -197,3 +197,5 @@
 - Сервис корзины: [ch10/listing_10_6.py](ch10/listing_10_6.py)
 - Сервис товаров: [ch10/listing_10_7.py](ch10/listing_10_7.py)
 - Сервис backend-for-frontend для товаров: [ch10/listing_10_8.py](ch10/listing_10_8.py)
+- Сопрограмма `retry`: [ch10/listing_10_9.py](ch10/listing_10_9.py)
+- Тестирование сопрограммы `retry`: [ch10/listing_10_10.py](ch10/listing_10_10.py)
