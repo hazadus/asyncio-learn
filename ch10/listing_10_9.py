@@ -3,7 +3,7 @@
 """
 import asyncio
 import logging
-from typing import Callable, Awaitable
+from typing import Awaitable, Callable
 
 
 class TooManyRetries(Exception):

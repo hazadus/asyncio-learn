@@ -2,7 +2,8 @@
 Тестирование сопрограммы `retry`
 """
 import asyncio
-from ch10.listing_10_9 import retry, TooManyRetries
+
+from ch10.listing_10_9 import TooManyRetries, retry
 
 
 async def main() -> None:
