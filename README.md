@@ -30,6 +30,7 @@
   - [websockets](https://pypi.org/project/websockets/): An implementation of the WebSocket Protocol (RFC 6455 & 7692).
   - Книга [Release It! Second Edition](https://pragprog.com/titles/mnee2/release-it-second-edition/): паттерн 
     "Прерыватель".
+  - [Beautiful Soup 4](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 
 ### Глава 1. Первое знакомство с `asyncio`
 
@@ -224,3 +225,4 @@
 - Очередь в супермаркете: [ch12/listing_12_1.py](ch12/listing_12_1.py)
 - Использование методов-сопрограмм очереди: [ch12/listing_12_2.py](ch12/listing_12_2.py)
 - Использование очередей в веб-приложении: [ch12/listing_12_3.py](ch12/listing_12_3.py)
+- Робот с очередью: [ch12/listing_12_4.py](ch12/listing_12_4.py)
