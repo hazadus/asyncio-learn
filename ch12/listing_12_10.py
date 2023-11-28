@@ -2,7 +2,7 @@
 LIFO-очередь
 """
 import asyncio
-from asyncio import Queue, LifoQueue
+from asyncio import LifoQueue, Queue
 from dataclasses import dataclass, field
 
 
