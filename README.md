@@ -238,3 +238,5 @@
 - Порождение большого объема вывода: [ch13/listing_13_4.py](ch13/listing_13_4.py)
 - Взаимоблокировка при использовании канала: [ch13/listing_13_5.py](ch13/listing_13_5.py)
 - Использование `communicate`: [ch13/listing_13_6.py](ch13/listing_13_6.py)
+- Конкурентное шифрование текста: [ch13/listing_13_7.py](ch13/listing_13_7.py)
+- Подпроцессы и семафор: [ch13/listing_13_8.py](ch13/listing_13_8.py)
