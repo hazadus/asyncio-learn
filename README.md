@@ -240,3 +240,7 @@
 - Использование `communicate`: [ch13/listing_13_6.py](ch13/listing_13_6.py)
 - Конкурентное шифрование текста: [ch13/listing_13_7.py](ch13/listing_13_7.py)
 - Подпроцессы и семафор: [ch13/listing_13_8.py](ch13/listing_13_8.py)
+- Копирование данных, введенных пользователем: [ch13/listing_13_9.py](ch13/listing_13_9.py)
+- Использование `communicate` со стандартным вводом: [ch13/listing_13_10.py](ch13/listing_13_10.py)
+- Приложение `echo`: [ch13/listing_13_11.py](ch13/listing_13_11.py)
+- Запуск приложения `echo` в подпроцессе: [ch13/listing_13_12.py](ch13/listing_13_12.py)
