@@ -244,3 +244,5 @@
 - Использование `communicate` со стандартным вводом: [ch13/listing_13_10.py](ch13/listing_13_10.py)
 - Приложение `echo`: [ch13/listing_13_11.py](ch13/listing_13_11.py)
 - Запуск приложения `echo` в подпроцессе: [ch13/listing_13_12.py](ch13/listing_13_12.py)
+- Более сложная программа `echo`: [ch13/listing_13_13.py](ch13/listing_13_13.py)
+- Разделение чтения вывода и записи ввода: [ch13/listing_13_14.py](ch13/listing_13_14.py)
