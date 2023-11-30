@@ -257,3 +257,4 @@
 - Сопрограммы на основе генераторов: [ch14/listing_14_5.py](ch14/listing_14_5.py)
 - Реализация класса `CustomFuture`: [ch14/listing_14_8.py](ch14/listing_14_8.py)
 - Сокеты и будущие объекты: [ch14/listing_14_10.py](ch14/listing_14_10.py)
+- Реализация задачи: [ch14/listing_14_11.py](ch14/listing_14_11.py)
