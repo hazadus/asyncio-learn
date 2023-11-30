@@ -2,6 +2,7 @@
 Принудительный запуск итерации цикла событий
 """
 import asyncio
+
 from util import delay
 
 

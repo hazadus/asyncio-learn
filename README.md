@@ -31,6 +31,7 @@
   - Книга [Release It! Second Edition](https://pragprog.com/titles/mnee2/release-it-second-edition/): паттерн 
     "Прерыватель".
   - [Beautiful Soup 4](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+  - [uvloop](https://github.com/MagicStack/uvloop): Ultra fast asyncio event loop. 
 
 ### Глава 1. Первое знакомство с `asyncio`
 
@@ -252,3 +253,4 @@
 - Класс исполнителя задач: [ch14/listing_14_1.py](ch14/listing_14_1.py)
 - Сервер с контекстными переменными: [ch14/listing_14_2.py](ch14/listing_14_2.py)
 - Принудительный запуск итерации цикла событий: [ch14/listing_14_3.py](ch14/listing_14_3.py)
+- Использование `uvloop` в качестве цикла событий: [ch14/listing_14_4.py](ch14/listing_14_4.py)
