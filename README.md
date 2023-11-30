@@ -254,3 +254,6 @@
 - Сервер с контекстными переменными: [ch14/listing_14_2.py](ch14/listing_14_2.py)
 - Принудительный запуск итерации цикла событий: [ch14/listing_14_3.py](ch14/listing_14_3.py)
 - Использование `uvloop` в качестве цикла событий: [ch14/listing_14_4.py](ch14/listing_14_4.py)
+- Сопрограммы на основе генераторов: [ch14/listing_14_5.py](ch14/listing_14_5.py)
+- Реализация класса `CustomFuture`: [ch14/listing_14_8.py](ch14/listing_14_8.py)
+- Сокеты и будущие объекты: [ch14/listing_14_10.py](ch14/listing_14_10.py)
