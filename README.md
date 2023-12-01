@@ -19,6 +19,10 @@
 - Создание дочерних процессов при помощи `fork()` в *nix: [inside-cpython/fork_celsius.c](inside-cpython/fork_celsius.c)
 - Сканер портов с использованием `subinterpreters`: [inside-cpython/subinterpreters_portscanner.py](inside-cpython/subinterpreters_portscanner.py)
 
+## Примеры из глав 19-20 Fluent Python
+
+- Spinner with threads: [fluent-python/ch19/example_19_1.py](fluent-python/ch19/example_19_1.py)
+
 ## Примеры кода из книги Python Concurrency with `asyncio` 
 
 - Материалы:
