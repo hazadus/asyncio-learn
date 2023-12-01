@@ -14,6 +14,10 @@
 
 - Асинхронный парсер RSS-лент на `asyncio` и `aiohttp`: [rssreader/rssreader.py](rssreader/rssreader.py)
 
+## Примеры к книге "Внутри CPython" Энтони Шоу
+
+- Создание дочерних процессов при помощи `fork()` в *nix: [inside-cpython/fork_celsius.c](inside-cpython/fork_celsius.c)
+
 ## Примеры кода из книги Python Concurrency with `asyncio` 
 
 - Материалы:
