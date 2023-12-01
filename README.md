@@ -17,6 +17,7 @@
 ## Примеры к книге "Внутри CPython" Энтони Шоу
 
 - Создание дочерних процессов при помощи `fork()` в *nix: [inside-cpython/fork_celsius.c](inside-cpython/fork_celsius.c)
+- Сканер портов с использованием `subinterpreters`: [inside-cpython/subinterpreters_portscanner.py](inside-cpython/subinterpreters_portscanner.py)
 
 ## Примеры кода из книги Python Concurrency with `asyncio` 
 
