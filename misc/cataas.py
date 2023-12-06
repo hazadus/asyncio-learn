@@ -1,6 +1,8 @@
 """
-Download random cat photos using sequential downloads vs. threading vs. multiprocessing modules.
+Download random cat photos using sequential downloads vs.
+threading vs. multiprocessing vs. asyncio+aiohttp.
 """
+import asyncio
 import logging
 import multiprocessing
 import os
@@ -10,6 +12,7 @@ import uuid
 from http import HTTPStatus
 
 import requests
+from aiohttp import ClientSession
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -30,6 +33,15 @@ def download_image(url: str, output_path: str):
 
     with open(output_path, "wb") as file:
         file.write(response.content)
+
+
+async def download_image_async(session: ClientSession, url: str, output_path: str):
+    async with session.get(url) as response:
+        if response.status != HTTPStatus.OK:
+            return
+
+        with open(output_path, "wb") as file:
+            file.write(await response.content.read())
 
 
 def load_images_sequential():
@@ -98,6 +110,30 @@ def load_images_multiprocessing():
     )
 
 
+async def async_main() -> None:
+    start = time.time()
+
+    async with ClientSession() as session:
+        tasks = [
+            asyncio.create_task(
+                download_image_async(
+                    session,
+                    CAT_URL,
+                    OUT_PATH.format(uuid.uuid4()),
+                )
+            )
+            for _ in range(CATS_QTY)
+        ]
+        [await task for task in tasks]
+
+    logger.info(
+        "Downloaded {cat_qty} cats using asyncio/aiohttp in {sec:.2f} sec.".format(
+            cat_qty=CATS_QTY,
+            sec=time.time() - start,
+        )
+    )
+
+
 if __name__ == "__main__":
     if not os.path.exists(OUT_DIR):
         os.mkdir(OUT_DIR)
@@ -110,3 +146,6 @@ if __name__ == "__main__":
 
     logger.info(f"Starting multiprocess download of {CATS_QTY} cats...")
     load_images_multiprocessing()
+
+    logger.info(f"Starting download of {CATS_QTY} cats using asyncio and aiohttp...")
+    asyncio.run(async_main())
