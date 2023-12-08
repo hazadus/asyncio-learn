@@ -1,9 +1,10 @@
 """
 Dining philosophers.
+https://go.skillbox.ru/profession/profession-python/python-advanced/2f69f1b7-202f-49a3-b020-a734f24dbcda/videolesson
 """
 import logging
-import threading
 import random
+import threading
 import time
 
 logging.basicConfig(level="INFO")
