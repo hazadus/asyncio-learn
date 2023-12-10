@@ -14,6 +14,11 @@
 
 - Асинхронный парсер RSS-лент на `asyncio` и `aiohttp`: [rssreader/rssreader.py](rssreader/rssreader.py)
 
+## Разное
+
+- Запросы к web API с использованием `Pool` (процессы) vs. `ThreadPool`: [misc/pool_vs_threadpool.py](misc/pool_vs_threadpool.py)
+- Скачиваем и сохраняем картинки с котами с использованием `Thread`, `Process`, `asyncio`: [misc/cataas.py](misc/cataas.py)
+
 ## Примеры к книге "Внутри CPython" Энтони Шоу
 
 - Создание дочерних процессов при помощи `fork()` в *nix: [inside-cpython/fork_celsius.c](inside-cpython/fork_celsius.c)
