@@ -16,8 +16,10 @@
 
 ## Разное
 
-- Запросы к web API с использованием `Pool` (процессы) vs. `ThreadPool`: [misc/pool_vs_threadpool.py](misc/pool_vs_threadpool.py)
 - Скачиваем и сохраняем картинки с котами с использованием `Thread`, `Process`, `asyncio`: [misc/cataas.py](misc/cataas.py)
+- Конкурентные запросы к web API с использованием `Pool` (процессы) vs. `ThreadPool`: [misc/pool_vs_threadpool.py](misc/pool_vs_threadpool.py)
+- Конкурентные запросы к web API с использованием `ThreadPoolExecutor`, `ProcessPoolExecutor` и `concurrent.futures.
+  as_completed()`: [misc/executors.py](misc/executors.py)
 
 ## Примеры к книге "Внутри CPython" Энтони Шоу
 
