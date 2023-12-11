@@ -29,6 +29,7 @@
 ## Примеры из глав 19-20 Fluent Python
 
 - Spinner with threads: [fluent-python/ch19/example_19_1.py](fluent-python/ch19/example_19_1.py)
+- Probing domain using `asyncio`'s `loop.getaddrinfo()`: [fluent-python/ch21/example_21_1.py](fluent-python/ch21/example_21_1.py)
 
 ## Примеры кода из книги Python Concurrency with `asyncio` 
 
