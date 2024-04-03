@@ -1,12 +1,7 @@
 # Concurrency and Multiprocessing in Python
 
-В этом репозитории пробую примеры из книг, а также делаю наброски кода по тематике concurrency and multiprocessing 
-на Python.
-
-Материалы для дальнейшей проработки:
-
-- [Async IO in Python: A Complete Walkthrough](https://realpython.com/async-io-python/)
-- [aiostream](https://aiostream.readthedocs.io/en/stable/) – Generator-based operators for asynchronous iteration.
+В этом репозитории пробую примеры из книг, а также делаю эксперименты по тематике concurrency and 
+multiprocessing на Python.
 
 ## Наброски
 

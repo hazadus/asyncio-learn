@@ -1,6 +1,6 @@
 """
 Download random cat photos using sequential downloads vs.
-threading vs. multiprocessing vs. asyncio+aiohttp.
+threading vs. multiprocessing vs. asyncio+aiohttp+aiofiles.
 """
 import asyncio
 import logging
@@ -11,6 +11,7 @@ import time
 import uuid
 from http import HTTPStatus
 
+import aiofiles
 import requests
 from aiohttp import ClientSession
 
@@ -21,8 +22,6 @@ CAT_URL = "https://cataas.com/cat"
 OUT_DIR = "./cats"
 OUT_PATH = "cats/{}.jpeg"
 CATS_QTY = 10
-
-filename = uuid.uuid4()
 
 
 def download_image(url: str, output_path: str):
@@ -35,13 +34,18 @@ def download_image(url: str, output_path: str):
         file.write(response.content)
 
 
+async def save_image_async(content: bytes, output_path: str):
+    async with aiofiles.open(output_path, mode="wb") as f:
+        await f.write(content)
+
+
 async def download_image_async(session: ClientSession, url: str, output_path: str):
     async with session.get(url) as response:
         if response.status != HTTPStatus.OK:
             return
 
-        with open(output_path, "wb") as file:
-            file.write(await response.content.read())
+        content = await response.content.read()
+        await save_image_async(content, output_path)
 
 
 def load_images_sequential():
@@ -127,7 +131,7 @@ async def async_main() -> None:
         [await task for task in tasks]
 
     logger.info(
-        "Downloaded {cat_qty} cats using asyncio/aiohttp in {sec:.2f} sec.".format(
+        "Downloaded {cat_qty} cats using asyncio/aiohttp/aiofiles in {sec:.2f} sec.".format(
             cat_qty=CATS_QTY,
             sec=time.time() - start,
         )
@@ -147,5 +151,7 @@ if __name__ == "__main__":
     logger.info(f"Starting multiprocess download of {CATS_QTY} cats...")
     load_images_multiprocessing()
 
-    logger.info(f"Starting download of {CATS_QTY} cats using asyncio and aiohttp...")
+    logger.info(
+        f"Starting download of {CATS_QTY} cats using asyncio, aiohttp and aiofiles..."
+    )
     asyncio.run(async_main())
