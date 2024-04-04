@@ -15,6 +15,7 @@ multiprocessing на Python.
 - Конкурентные запросы к web API с использованием `Pool` (процессы) vs. `ThreadPool`: [misc/pool_vs_threadpool.py](misc/pool_vs_threadpool.py)
 - Конкурентные запросы к web API с использованием `ThreadPoolExecutor`, `ProcessPoolExecutor` и `concurrent.futures.
   as_completed()`: [misc/executors.py](misc/executors.py)
+- Краулер на `asyncio` – ищет ссылки на страницах до установленной глубины, и сохраняет их в файл: [misc/asyncrawler.py](misc/asyncrawler.py)
 
 ## Примеры к книге "Внутри CPython" Энтони Шоу
 
